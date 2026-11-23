@@ -1,0 +1,6 @@
+{
+  "name": "NetStrike Lab",
+  "description": "擬似Linuxターミナルとnmap・hydra・ssh等のセキュリティツールを用いて、セキュリティレベル1〜10のサーバーや自作サーバーからフラグを奪取する実践的CTFシミュレーションゲーム。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
