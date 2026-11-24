@@ -1,5 +1,6 @@
 import { SecurityLevel, ServerConfig } from '../types/game';
 import { BATCH2_CAMPAIGN_SERVERS } from './campaignBatch2';
+import { BATCH3_CAMPAIGN_SERVERS } from './campaignBatch3';
 import { EXTRA_CAMPAIGN_SERVERS } from './extraServers';
 
 const BASE_CAMPAIGN_SERVERS: ServerConfig[] = [
@@ -1384,6 +1385,7 @@ export const CAMPAIGN_SERVERS: ServerConfig[] = [
   ...BASE_CAMPAIGN_SERVERS,
   ...EXTRA_CAMPAIGN_SERVERS,
   ...BATCH2_CAMPAIGN_SERVERS,
+  ...BATCH3_CAMPAIGN_SERVERS,
 ].sort((a, b) => a.level - b.level);
 
 export const SECURITY_LEVEL_DESCRIPTIONS: Record<SecurityLevel, { label: string; summary: string }> = {
